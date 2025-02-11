@@ -3,5 +3,8 @@
 * Lab 4 Big ToDo List
 * Professor Lewellan
 *****************/
-Console.WriteLine("Hello, World!");
-
+class Program {
+    static void Main() {
+        new ToDoListApp(new ToDoList()).Run();
+    }
+}
