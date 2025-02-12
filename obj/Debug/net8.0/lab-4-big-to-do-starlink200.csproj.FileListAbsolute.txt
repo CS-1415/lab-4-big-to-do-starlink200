@@ -1,0 +1,5 @@
+C:\Users\caleb\my-code-dir-2\lab-4-big-to-do-starlink200\obj\Debug\net8.0\lab-4-big-to-do-starlink200.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caleb\my-code-dir-2\lab-4-big-to-do-starlink200\obj\Debug\net8.0\lab-4-big-to-do-starlink200.AssemblyInfoInputs.cache
+C:\Users\caleb\my-code-dir-2\lab-4-big-to-do-starlink200\obj\Debug\net8.0\lab-4-big-to-do-starlink200.AssemblyInfo.cs
+C:\Users\caleb\my-code-dir-2\lab-4-big-to-do-starlink200\obj\Debug\net8.0\lab-4-big-to-do-starlink200.csproj.CoreCompileInputs.cache
+C:\Users\caleb\my-code-dir-2\lab-4-big-to-do-starlink200\obj\Debug\net8.0\lab-4-big-to-do-starlink200.sourcelink.json

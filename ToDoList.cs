@@ -68,4 +68,10 @@ public class TodoList
     {
         return _taskList[index];
     }
+
+    public Task CurrentTask()
+    {
+        return _taskList[_cursorIndex];
+    }
 }
+
