@@ -108,7 +108,7 @@ class TodoListApp
                     _insertMode = true;
                     break;
                 case ConsoleKey.E:
-                    //_tasks.CurrentTask().Title() = GetTitle();
+                    _tasks.CurrentTask()._title = GetTitle();
                     break;
                 case ConsoleKey.H:
                     _showHelp = !_showHelp;
