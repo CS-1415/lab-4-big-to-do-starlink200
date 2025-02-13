@@ -68,10 +68,17 @@ public class TodoList
 
     public void DeleteSelected()
     {
-        _taskList.Remove(_taskList[_cursorIndex]);
         if(_cursorIndex >= _taskList.Count() - 1)
         {
             _cursorIndex = _taskList.Count() - 1;
+        }
+        if(_cursorIndex < 0)
+        {
+            _cursorIndex = 0;
+        }
+        else
+        {
+            _taskList.Remove(_taskList[_cursorIndex]);
         }
     }
 
