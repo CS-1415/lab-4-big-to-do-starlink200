@@ -4,6 +4,8 @@ public class Task
 
     public bool isCompleted {get; set;}
 
+    public CompletionStatus completionStatus {get; set;}
+
     public Task(string title, bool _isCompleted)
     {
         _title = title;

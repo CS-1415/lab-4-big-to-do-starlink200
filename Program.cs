@@ -5,6 +5,10 @@
 *****************/
 class Program {
     static void Main() {
-        new ToDoListApp(new ToDoList()).Run();
+        TodoList newToDoList = new TodoList();
+        TodoListApp newToDoListApp = new TodoListApp(newToDoList);
+        newToDoListApp.Run();
+        //new ToDoListApp(new ToDoList()).Run();
+        
     }
 }

@@ -7,7 +7,7 @@ public class TodoList
 
     public TodoList()
     {
-
+        _taskList = new List<Task>();
     }
     public TodoList(List<Task> tasks, int cursorIndex)
     {
@@ -15,10 +15,11 @@ public class TodoList
         _cursorIndex = cursorIndex;
     }
 
-    public Task Insert(string title)
+    public void Insert(string title)
     {
         Task newTask = new Task(title, false);
-        return newTask;
+        _taskList!.Add(newTask);
+        
     }
 
     public int PreviousIndex()
@@ -56,7 +57,7 @@ public class TodoList
 
     public int Length()
     {
-        return _taskList.Count();
+        return _taskList.Count;
     }
 
     public void DeleteSelected()

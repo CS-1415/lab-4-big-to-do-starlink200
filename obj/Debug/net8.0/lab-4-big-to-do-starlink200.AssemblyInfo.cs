@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-4-big-to-do-starlink200")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c2577c9f8befb03a219204f147ff208dd2451a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6792e57f6b37fda68b2fc75caade384f7209c0c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-4-big-to-do-starlink200")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-4-big-to-do-starlink200")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
