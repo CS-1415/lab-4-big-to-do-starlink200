@@ -44,15 +44,21 @@ public class TodoList
     public void SwapWithPrevious()
     {
         Task temp = _taskList[_cursorIndex];
+        if(_cursorIndex - 1 >= 0)
+        {
         _taskList[_cursorIndex] = _taskList[_cursorIndex - 1];
         _taskList[_cursorIndex - 1] = temp;
+        }
     }
 
     public void SwapWithNext()
     {
         Task temp = _taskList[_cursorIndex];
-        _taskList[_cursorIndex] = _taskList[_cursorIndex + 1];
-        _taskList[_cursorIndex + 1] = temp;
+        if(_cursorIndex + 1 != _taskList.Count())
+        {
+            _taskList[_cursorIndex] = _taskList[_cursorIndex + 1];
+            _taskList[_cursorIndex + 1] = temp;
+        }
     }
 
     public int Length()
@@ -63,6 +69,10 @@ public class TodoList
     public void DeleteSelected()
     {
         _taskList.Remove(_taskList[_cursorIndex]);
+        if(_cursorIndex >= _taskList.Count() - 1)
+        {
+            _cursorIndex = _taskList.Count() - 1;
+        }
     }
 
     public Task GetTask(int index)
